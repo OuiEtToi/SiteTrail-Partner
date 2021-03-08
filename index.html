@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Devenir Partenaire</title>
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital@1&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap" rel="stylesheet">
+        <script src="script.js"></script>
+    </head>
+
+    <body>
+        <header>
+            <div class="wrapper">
+                <img src="images\Trail4.png" id="logo">
+                <nav class="navigation">
+                   <ul>
+                        <li><a href="https://ouiettoi.github.io/SiteTrail-Accueil/">Accueil</a></li>
+                        <li><a href="https://ouiettoi.github.io/SiteTrail-Partner/">Devenir partenaire</a></li>
+                        <li><a href="https://ouiettoi.github.io/SiteTrail-Inscriptions/">Inscriptions</a></li>
+                        <li><a href="https://ouiettoi.github.io/SiteTrail-Course/">Parcours</a></li>
+                        <li><a href="https://ouiettoi.github.io/SiteTrail-COVID/">Note COVID-19</a></li>
+                        <li><a href="https://ouiettoi.github.io/SiteTrail-Rules/">Règlement</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+
+        <section class="be-partner">
+            <div class="title">
+                <h1>Partenaires</h1>
+            </div>
+            <div class="partner-band">
+                <h2>[ LOGOS ]</h2>
+            </div>
+            <div class="title">
+                <h1>Comment devenir partenaire ?</h1>
+            </div>
+            <div id="explications">
+                <p>Pour devenir partenaire du P'tite Suisse Picheneille Trail c'est très simple !</p>
+                <p>Il vous suffit de remplir le formulaire ci-dessous et nous vous recontacterons le plus rapidement possible.</p>
+            </div>
+
+            <div class="container">
+                <form class="contact-partner" action="https://formspree.io/f/mknpdwkr" method="POST" id="my-form">
+
+                    <div class="contact-partner_group">
+                        <input type="text" class="form_input" id="nom" name="nom" placeholder="Nom de l'entreprise / société" required>
+                    </div>
+
+                    <div class="contact-partner_group">
+                        <input type="email" class="form_input" id="email" placeholder="Email" name="email" required>
+                    </div>
+
+                    <div class="contact-partner_group">
+                        <input type="number" class="form_input" id="numéro" placeholder="Numéro de téléphone" name="numéro" required>
+                    </div>
+
+                    <div class="form_message">
+                        <label for="" class="form_message-label">Message complémentaire (facultatif) :</label>
+                        <textarea name="message" id="message" cols="30" rows="10" class="form_input message_input"></textarea>
+                    </div>
+
+                    <div class="submit">
+                        <button class="submitBtn">
+                            Envoyer &rarr;
+                        </button>
+                    </div>
+
+                </form>
+
+            </div>
+
+            <div id="status"></div>
+            
+        </section>
+
+
+
+
+
+
+
+
+
+
+
+
+        <footer>
+
+            <div class="NPM">
+                <ul>
+                    <li><a href="" class="p2">Nous Contacter</a></li>
+                    <li><a href="" class="p2">Plan du site</a></li>
+                    <li><a href="" class="p2">Mention légales</a></li>
+                    <li><p href="" class="p3">© 2021 P'tite Suisse Picheneille Trail</p></li>
+                </ul>
+            </div>
+
+        </footer>
+
+
+    </body>
+
+</html>
